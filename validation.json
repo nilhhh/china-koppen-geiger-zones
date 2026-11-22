@@ -1,0 +1,70 @@
+{
+  "area_threshold_km2": 25000,
+  "valid_cells": 95859,
+  "valid_area_km2": 9456590.815109147,
+  "original_patches": 559,
+  "final_patches": 23,
+  "final_patches_below_threshold": 8,
+  "reassigned_cells": 4899,
+  "reassigned_area_km2": 488837.8813325284,
+  "reassigned_area_percent": 5.169282364967024,
+  "class_summary": {
+    "Tropical": {
+      "cells_before": 275,
+      "cells_after": 286,
+      "area_before_km2": 31997.62548618881,
+      "area_after_km2": 33393.767520556416
+    },
+    "Arid": {
+      "cells_before": 29426,
+      "cells_after": 29319,
+      "area_before_km2": 2758061.8892793925,
+      "area_after_km2": 2735487.0036397967
+    },
+    "Temperate": {
+      "cells_before": 23826,
+      "cells_after": 24272,
+      "area_before_km2": 2596143.738916612,
+      "area_after_km2": 2643875.359481452
+    },
+    "Cold": {
+      "cells_before": 25166,
+      "cells_after": 22989,
+      "area_before_km2": 2310940.128960677,
+      "area_after_km2": 2095002.572425698
+    },
+    "Polar": {
+      "cells_before": 17166,
+      "cells_after": 18993,
+      "area_before_km2": 1759447.432466277,
+      "area_after_km2": 1948832.1120416443
+    }
+  },
+  "grid": {
+    "crs": "EPSG:4326",
+    "rows": 355,
+    "columns": 617,
+    "nodata": 0,
+    "bounds_west_south_east_north": [
+      73.45,
+      18.15,
+      135.15,
+      53.65
+    ],
+    "pixel_size_degrees": [
+      0.1,
+      0.1
+    ]
+  },
+  "source": {
+    "figshare_record": "10.6084/m9.figshare.21789074",
+    "archive_version": 2,
+    "archive_md5": "7fc2f5a15d4f5fe0ce59c9a9b502aa09",
+    "raster_path": "1991_2020/koppen_geiger_0p1.tif",
+    "raster_sha256": "59b749fe6711e72c720ff903044eb0efb4373524ee434740ed7384a0284c155b"
+  },
+  "released_raster_sha256": {
+    "kg_1991_2020_china_0p1_unmerged.tif": "9003b49586cd26b4f30c3907c74ef59f97fd09ebbebc2a0a3fafd26457298955",
+    "kg_1991_2020_china_0p1_zones.tif": "c7fa44a73151f52ec8d8adb405c0876d1371cfe16a9c8300f538475a3cacb366"
+  }
+}
